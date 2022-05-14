@@ -1,0 +1,80 @@
+@import url(./style.css);
+@import url(./login.css);
+
+form {
+    margin-bottom: 150px;
+}
+
+/* Label */
+label {
+
+    font-size: 1rem;
+    margin-bottom: 2px;
+}
+
+/*Inputs dos botões*/
+input[type="submit"] {
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+}
+
+input[type="reset"] {
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 30px;
+    margin-top: 30px;
+    background-color: white;
+    cursor: pointer;
+}
+
+input[type="radio"]{
+    float: right;
+}
+
+/* Estados */
+.estados{
+    border: 2px solid white;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    display: block;
+    float: left;
+    color: white;
+    width: 106%;
+    height: 45px;
+}
+
+/* Sexo */
+
+#feminino,#feminino-f{
+    display: inline-block;
+    padding-bottom: 5px;
+    width: auto;
+}
+
+/* #masculino{
+    margin-left: 100px;
+} */
+
+#masculino,#masculino-m{
+    display: inline-block;
+    width: auto;
+}
+
+#f1,#f2,#f3,#f4,#f5,#f6,#f7{
+    margin-right: 5px;
+}
+#f1,#f2,#f3,#f4,#f5,#f6,#f7,#f1-1,#f2-1,#f3-1,#f4-1,#f5-1,#f6-1,#f7-1{
+    display: inline-block;
+    width: auto;
+}
+
+

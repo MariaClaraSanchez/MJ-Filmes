@@ -1,0 +1,54 @@
+@import url("../style.css");
+
+/* Filmes */
+.generos{
+    list-style: none;
+    font-size: 20px;
+    justify-content: center;
+    margin-left: 350px;
+}
+
+.generos ul{
+    margin-top: 20px;
+    
+}
+
+.generos ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+.generos ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.generos ul li a:hover{
+    color:#55afdf;
+    transition-duration: 0.4s;
+}
+
+.filmes{
+    height: 250px;
+    width: 170px;
+    border-radius: 3%;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.filmes:hover{
+    transform: scale(1.05);
+}
+
+.filme_individual{
+    height: 625px;
+    width: 425px;
+    margin: 30px 0px 20px 70px;
+    border-radius: 3%;
+}
+
+.texto_filme{
+    color: white;
+    display: flex;
+}

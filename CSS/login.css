@@ -1,0 +1,109 @@
+@import url(./style.css);
+
+textarea:focus,input:focus {
+    outline: 0;
+}
+
+a,label {
+    color: white;
+    font-size: .8rem;
+}
+
+a:hover {
+    color: #d7621a;
+}
+
+/* Section do Login */
+#login {
+    color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 5vh;
+    /* border-radius: 10px; */
+    text-align: center;
+}
+
+/* Formulário */
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label,input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+#forgot-password {
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"] {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 30px;
+    margin-top: 30px;
+    background-color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #af9c98;
+    transition: .5s;
+}
+
+/* Redes sociais */
+#social-login,
+#social-login p {
+    margin-bottom: 20px;
+}
+
+#social-login i {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.fa-facebook {
+    background-color: #3b5998;
+}
+
+.fa-google {
+    background-color: #EA4335;
+}
+
+.fa-instagram {
+    background: -moz-linear-gradient(top, 	#962fbf 0%, #a742c6 100%);
+    background: -webkit-linear-gradient(top, #962fbf 0%, #d62976 100%);
+    background: linear-gradient(to bottom, 	#962fbf 0%, #fa7e1e 100%);
+}
+
+/* Register */
+#register p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

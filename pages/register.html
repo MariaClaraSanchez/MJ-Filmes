@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Register User</title>
+    <!-- Para usar ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/register.css">
+</head>
+
+<body>
+    <div><img id="logoEscrita" src="../img/escritaLogo.png"></div>
+    <hr>
+    <section id="login">
+        <h1>Cadastro de Usuários</h1>
+        <form action="../index.html">
+            <label for="name">Nome</label>
+            <input type="text" name="name" id="name" placeholder="Digite seu nome">
+
+            <label for="endereco">Endereço</label>
+            <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço">
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+
+            <label for="cidade">Cidade</label>
+            <input type="text" name="cidade" id="cidade" placeholder="Digite sua cidade">
+
+            <label for="estado">Estado</label>
+            <select name="estados" class="estados">
+                <option value="#">Selecione um estado</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+
+            <label for="cidade">Sexo</label><br>
+
+            <div>
+                <input type="radio" name="feminino" id="feminino" value="fe">
+                <label for="feminino" id="feminino-f">Feminino</label>
+            </div>
+            <div style="margin-left: 15px;">
+                <input type="radio" name="masculino" id="masculino" value="mas">
+                <label for="f2" id="masculino">Masculino</label>
+            </div>
+
+            <label for="filme" style="margin-top: 30px;">Escolha os filmes que você mais gosta</label><br>
+            <div>
+                <input type="checkbox" id="f1" name="f1" value="Ação">
+                <label for="f1" id="f1-1" > Ação</label><br>
+
+                <input type="checkbox" id="f2" name="f2" value="Aventura">
+                <label for="f2" id="f2-1"> Aventura </label><br>
+
+                <input type="checkbox" id="f3" name="f3" value="Comédia">
+                <label for="f3" id="f3-1"> Comédia </label><br>
+
+                <input type="checkbox" id="f4" name="f4" value="Suspense">
+                <label for="f4" id="f4-1"> Suspense </label><br>
+
+                <input type="checkbox" id="f5" name="f5" value="Drama">
+                <label for="f5" id="f5-1"> Drama </label><br>
+
+                <input type="checkbox" id="f6" name="f6" value="Romance">
+                <label for="f6" id="f6-1"> Romance </label><br>
+
+                <input type="checkbox" id="f7" name="f7" value="Terror">
+                <label for="f7" id="f7-1"> Terror </label><br>
+            </div>
+
+            <label for="user">Usuário</label>
+            <input type="text" name="user" id="user" placeholder="Digite usuário">
+
+            <label for="password">Senha</label>
+            <input type="password" name="password" id="password" placeholder="Digite sua senha">
+
+
+            <input type="submit" value="Cancelar">
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Cadastrar">
+            
+        </form>
+
+        <div id="social-login">
+            <p>Ou cadastre-se com :</p>
+
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-google"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+
+    </section>
+    <hr>
+    <footer>@jadyla.cesario@alunos.ifsuldeminas.edu.br & maria.sanchez@alunos.ifsuldeminas.edu.br - Instituto Federal do
+        Sul de Minas Gerais - 2022</footer>
+</body>
+
+</html>
