@@ -8,8 +8,10 @@
 }
 
 #logo{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
+    margin-left: 400px;
+    margin-top: 20px;
 }
 
 #logoEscrita{
@@ -63,6 +65,7 @@
 .texto_locadora{
     color: white;
     align-items: center;
+    margin: 0px 100px 50px 100px;
 }
 
 footer{
